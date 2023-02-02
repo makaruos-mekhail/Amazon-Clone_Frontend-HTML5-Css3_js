@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon-Home</title>
+
+
+    <!-- style css -->
+    <link rel="stylesheet" href="./Css/home.css">
+    <link rel="stylesheet" href="./Css/style.css">
+    <!-- style css -->
+
+    <!-- icon -->
+    <script src="https://kit.fontawesome.com/26f3c2e8ac.js" crossorigin="anonymous"></script>
+    <!-- icon -->
+
+</head>
+
+<body>
+    <!-- Headers -->
+
+    <header id="Nav_menu1">
+        <ul class="ul1 ">
+            <a href="index.html">
+                <li class="li1  li2"><img src="./images/logo.png" id="logo"></li>
+            </a>
+            <li class="li1">
+                <div style="margin-left: 30px;" class="border-white">
+                    <p id="home">Deliver To</p>
+                    <div class="icon-address">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h3>Egypt</h3>
+                    </div>
+                </div>
+            </li>
+            <li class="li1">
+                <div class="search-container">
+                    <select class="select-search">
+                        <option selected value="search-alias=aps" disabled>&nbsp;&nbsp;&nbsp;All </option>
+                        <option value="search-alias=arts-crafts-intl-ship">Arts & Crafts</option>
+                        <option value="search-alias=automotive-intl-ship">Automotive</option>
+                        <option value="search-alias=baby-products-intl-ship">Baby</option>
+                        <option value="search-alias=beauty-intl-ship">Beauty & Personal Care</option>
+                        <option value="search-alias=stripbooks-intl-ship">Books</option>
+                        <option value="search-alias=fashion-boys-intl-ship">Boys' Fashion</option>
+                        <option value="search-alias=computers-intl-ship">Computers</option>
+                        <option value="search-alias=deals-intl-ship">Deals</option>
+                        <option value="search-alias=digital-music">Digital Music</option>
+                        <option value="search-alias=electronics-intl-ship">Electronics</option>
+                        <option value="search-alias=fashion-girls-intl-ship">Girls' Fashion</option>
+                        <option value="search-alias=hpc-intl-ship">Health & Household</option>
+                        <option value="search-alias=kitchen-intl-ship">Home & Kitchen</option>
+                        <option value="search-alias=industrial-intl-ship">Industrial & Scientific</option>
+                        <option value="search-alias=digital-text">Kindle Store</option>
+                        <option value="search-alias=luggage-intl-ship">Luggage</option>
+                    </select>
+                    <input type="text" placeholder="Search Amazon" class="search-input">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass" style="color: white;"></i>
+                    </div>
+                </div>
+            </li>
+
+            <li class="li3" style="float:right">
+                <div class="Cart-container" style="float:right">
+                    <a href="cart.html">
+                        <i class="fa-solid fa-cart-shopping">
+                        </i>
+                        <span id="cartamount" class="cartamount">0</span>
+                        <p>Cart</p>
+                    </a>
+                </div>
+            </li>
+
+            <li class="li1" style="float:right">
+                <div class="return-order-container">
+                    <p>Returns <span class="order"> & Orders</span></p>
+                </div>
+            </li>
+            <li class="li1" style="float:right">
+                <div class="online" class="nav-profile-img" onclick="toggleMenu()">
+                    <x class="login-container ">
+                        <p style="margin-top: -10px;">Hello, &nbsp;<span id="namelocalstorage"></span></p>
+                        <p class="account">Account & Lists</p>
+                    </x>
+                </div>
+            </li>
+
+            <li class="li1">
+                <div class="language-container border-white" style="margin-top: 5px;">
+                    <img src="./images/Eg.png" alt="">
+                    <select name="language">
+                        <option value="english">AR</option>
+                        <option value="arabic">EN</option>
+                    </select>
+                </div>
+            </li>
+        </ul>
+    </header>
+
+    <!-------------profile-drop-down-menu-------------------------------------->
+    <nav class="Position_menu">
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="./images/logo.png">
+                    <div>
+                        <h3>Amazon-Profile</h3>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <p>Give feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <p>Setting & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="Create_account.html" class="profile-menu-link">
+                    <p>Register account</p>
+                    <span>></span>
+                </a>
+                <a href="Sign_in.html" class="profile-menu-link">
+                    <p>Sign in</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!---------------profile-drop-down-menu----------------->
+
+    <header id="Nav_menu2">
+        <ul class="ul2">
+            <li class="li22">
+                <i class="fa-solid fa-bars i_nav"></i>All
+            </li>
+            <li class="li22">
+                Today's Deals
+            </li>
+            <li class="li22">
+                Customer service
+            </li>
+            <li class="li22">
+                <a href="Register.html" class="a1">Registry</a>
+            </li>
+            <li class="li22">
+                <a href="GiftsCards.html" class="a1">Gift Cards</a>
+            </li>
+            <li class="li22">
+                Sell
+            </li>
+            <li class="li22" style="float: right;">
+                Shop great deals now
+            </li>
+        </ul>
+
+    </header>
+    <!-- Headers -->
+
+    <!-- ImageSlides -->
+    <nav id="imageSlide">
+        <input type="submit" value=">" class="NextSlide" onclick="nextslide()" />
+        <input type="submit" value="S" class="prevslide2" onclick="stopslide()" />
+        <input type="submit" value=">>" class="NextSlide2" onclick="startSlider()" />
+        <input type="submit" value="&lt;" class="prevslide" onclick="prevslide()" />
+        <a href="Video.html"><img src="./images/p1.jpg" width="1899px" height="800" /></a>
+    </nav>
+    <!-- ImageSlides -->
+
+    <!-- products -->
+
+    <!-- <main id="product_Position" >
+        <main class="product_Position1" >
+            <div class="product_box">
+                <h4 class="bursh_text">For your Fitness Needs</h4>
+                <img src="./images/pro1.jpg" class="image_1">
+                <div class="btn_main">
+                    <a href="#" class="price_text">See More</a>
+                    <button class="cart"> ADD TO CART</button>
+                </div>
+            </div>
+        </main>
+        <main class="product_Position2">
+            <div class="product_box">
+                <h4 class="bursh_text">New arrivals in Toys</h4>
+                <img src="./images/pro2.jpg" class="image_1">
+                <div class="btn_main">
+                    <a href="#" class="price_text">See More</a>
+                    <button class="cart"> ADD TO CART</button>
+                </div>
+            </div>
+        </main>
+        <main class="product_Position3">
+            <div class="product_box">
+                <h4 class="bursh_text">Shop activity trackers and smartwatches</h4>
+                <img src="./images/pro3.jpg" class="image_1" style="height: 260px;">
+                <div class="btn_main">
+                    <a href="#" class="price_text">See More</a>
+                    <button class="cart"> ADD TO CART</button>
+                </div>
+            </div>
+        </main>
+        <main class="product_Position4">
+            <div class="product_box">
+                <h4 class="bursh_text">Kindle E readers</h4>
+                <img src="./images/pro7.jpg" class="image_1">
+                <div class="btn_main">
+                    <a href="#" class="price_text">See More</a>
+                    <button class="cart"> ADD TO CART</button>
+                </div>
+            </div>
+        </main>
+    </main> -->
+
+    <div class="shop" id="shop" style="margin-top: -300px;">
+    </div>
+
+    <!-- <main id="productNEXT">
+        <main class="productNEXT">
+            <div class="product_box">
+                <h4 class="bursh_text">Shop Laptops & Tablets</h4>
+                <img src="./images/pro4.jpg" class="image_1">
+                <div class="btn_main">
+                    <a href="#" class="price_text">See More</a>
+                    <button class="cart"> ADD TO CART</button>
+                </div>
+            </div>
+        </main>
+        <main class="productNEXT">
+            <div class="product_box">
+                <h4 class="bursh_text">Dresses</h4>
+                <img src="./images/pro9.jpg" class="image_1">
+                <div class="btn_main">
+                    <a href="#" class="price_text">See More</a>
+                    <button class="cart"> ADD TO CART</button>
+                </div>
+            </div>
+        </main>
+        <main class="productNEXT">
+            <div class="product_box">
+                <h4 class="bursh_text">Create with strip lights</h4>
+                <img src="./images/pro6.jpg" class="image_1">
+                <div class="btn_main">
+                    <a href="#" class="price_text">See More</a>
+                    <button class="cart"> ADD TO CART</button>
+                </div>
+            </div>
+        </main>
+        <main class="productNEXT">
+            <div class="product_box">
+                <h4 class="bursh_text">Health & Personal Care</h4>
+                <img src="./images/pro8.jpg" class="image_1">
+                <div class="btn_main">
+                    <a href="#" class="price_text">See More</a>
+                    <button class="cart"> ADD TO CART</button>
+                </div>
+            </div>
+        </main>
+    </main> -->
+
+    <main class="products1">
+        <h2 style="margin-left: 25px;padding: 15px;">
+            International top sellers
+        </h2>
+        <div style="padding: 10px;">
+            <img src="./images/im1.jpg" alt="" class="img-Margin">
+            <img src="./images/im2.jpg" alt="" class="img-Margin">
+            <img src="./images/im3.jpg" alt="" class="img-Margin">
+            <img src="./images/im4.jpg" alt="" class="img-Margin">
+            <img src="./images/im5.jpg" alt="" class="img-Margin">
+            <img src="./images/im6.jpg" alt="" class="img-Margin">
+            <img src="./images/im7.jpg" alt="" class="img-Margin">
+
+        </div>
+    </main>
+
+    <main class="products2">
+        <h2 style="margin-left: 25px;padding: 15px;">
+            Popular items this season
+        </h2>
+        <div style="padding: 10px;">
+            <img src="./images/e1.jpg" alt="" class="img-Margin">
+            <img src="./images/e4.jpg" alt="" class="img-Margin">
+            <img src="./images/e8.jpg" alt="" class="img-Margin">
+            <img src="./images/e2.jpg" alt="" class="img-Margin">
+            <img src="./images/e3.jpg" alt="" class="img-Margin">
+            <img src="./images/e5.jpg" alt="" class="img-Margin">
+            <img src="./images/e7.jpg" alt="" class="img-Margin">
+
+        </div>
+    </main>
+
+    <!-- <main id="products">
+        <main class="products">
+            <div class="product_box">
+                <h4 class="bursh_text">Gaming merchandise</h4>
+                <img src="./images/pro10.png" class="image_1">
+                <div class="btn_main">
+                    <a href="#" class="price_text">See More</a>
+                    <button class="cart"> ADD TO CART</button>
+                </div>
+            </div>
+        </main>
+        <main class="products">
+            <div class="product_box">
+                <h4 class="bursh_text">A holiday home starts here</h4>
+                <img src="./images/pro11.png" class="image_1">
+                <div class="btn_main">
+                    <a href="#" class="price_text">See More</a>
+                    <button class="cart"> ADD TO CART</button>
+                </div>
+            </div>
+        </main>
+        <main class="products">
+            <div class="product_box">
+                <h4 class="bursh_text">New year inspiration</h4>
+                <img src="./images/pro5.png" class="image_1">
+                <div class="btn_main">
+                    <a href="#" class="price_text">See More</a>
+                    <button class="cart"> ADD TO CART</button>
+                </div>
+            </div>
+        </main>
+        <main class="products">
+            <div class="product_box">
+                <h4 class="bursh_text">Refresh your space</h4>
+                <img src="./images/pro12.png" class="image_1">
+                <div class="btn_main">
+                    <a href="#" class="price_text">See More</a>
+                    <button class="cart"> ADD TO CART</button>
+                </div>
+            </div>
+        </main>
+    </main> -->
+
+    <main class="products3">
+        <h2 style="margin-left: 25px;padding: 15px;">
+            Stuffed Animals & Toys under $10
+        </h2>
+        <div style="padding: 10px;">
+            <img src="./images/d1.jpg" alt="" class="img-Margin">
+            <img src="./images/d4.jpg" alt="" class="img-Margin">
+            <img src="./images/d6.jpg" alt="" class="img-Margin">
+            <img src="./images/d2.jpg" alt="" class="img-Margin">
+            <img src="./images/d3.jpg" alt="" class="img-Margin">
+            <img src="./images/d5.jpg" alt="" class="img-Margin">
+            <img src="./images/d7.jpg" alt="" class="img-Margin">
+
+        </div>
+    </main>
+
+    <main class="products2">
+        <h2 style="margin-left: 25px;padding: 15px;">
+            Popular products in PC internationally
+        </h2>
+        <div style="padding: 10px;">
+            <img src="./images/c1.jpg" alt="" class="img-Margin">
+            <img src="./images/c4.jpg" alt="" class="img-Margin">
+            <img src="./images/c6.jpg" alt="" class="img-Margin">
+            <img src="./images/c2.jpg" alt="" class="img-Margin">
+            <img src="./images/c3.jpg" alt="" class="img-Margin">
+            <img src="./images/c5.jpg" alt="" class="img-Margin">
+            <img src="./images/c7.jpg" alt="" class="img-Margin">
+
+        </div>
+    </main>
+
+    <!-- <main id="products">
+        <main class="products">
+            <div class="product_box">
+                <h4 class="bursh_text">Deals & Promotions</h4>
+                <img src="./images/f1.jpg" class="image_1">
+                <div class="btn_main">
+                    <a href="#" class="price_text">See More</a>
+                    <button class="cart"> ADD TO CART</button>
+                </div>
+            </div>
+        </main>
+        <main class="products">
+            <div class="product_box">
+                <h4 class="bursh_text">Shop activity trackers and smartwatches</h4>
+                <img src="./images/pro3.jpg" class="image_1" style="height: 260px;">
+                <div class="btn_main">
+                    <a href="#" class="price_text ">See More</a>
+                    <button class="cart"> ADD TO CART</button>
+                </div>
+            </div>
+        </main>
+        <main class="products">
+            <div class="product_box">
+                <h4 class="bursh_text">Gaming accessories</h4>
+                <img src="./images/f2.png" class="image_1">
+                <div class="btn_main">
+                    <a href="#" class="price_text">See More</a>
+                    <button class="cart"> ADD TO CART</button>
+                </div>
+            </div>
+        </main>
+        <main class="products">
+            <div class="product_box">
+                <h4 class="bursh_text">Shop by Category</h4>
+                <img src="./images/f3.png" class="image_1">
+                <div class="btn_main">
+                    <a href="#" class="price_text">See More</a>
+                    <button class="cart"> ADD TO CART</button>
+                </div>
+            </div>
+        </main>
+    </main> -->
+
+    <main class="products3">
+        <h2 style="margin-left: 25px;padding: 15px;">
+            Home Décor Under $20
+        </h2>
+        <div style="padding: 10px;">
+            <img src="./images/a3.jpg" alt="" class="img-Margin">
+            <img src="./images/a4.jpg" alt="" class="img-Margin">
+            <img src="./images/a5.jpg" alt="" class="img-Margin">
+            <img src="./images/a6.jpg" alt="" class="img-Margin">
+            <img src="./images/a7.jpg" alt="" class="img-Margin">
+            <img src="./images/a8.jpg" alt="" class="img-Margin">
+            <img src="./images/a9.jpg" alt="" class="img-Margin">
+
+        </div>
+    </main>
+
+    <main class="products2">
+        <h2 style="margin-left: 25px;padding: 15px;">
+            Popular Gifts in Baby
+        </h2>
+        <div style="padding: 10px;">
+            <img src="./images/x1.jpg" alt="" class="img-Margin">
+            <img src="./images/x2.jpg" alt="" class="img-Margin">
+            <img src="./images/x3.jpg" alt="" class="img-Margin">
+            <img src="./images/x4.jpg" alt="" class="img-Margin">
+            <img src="./images/x5.jpg" alt="" class="img-Margin">
+            <img src="./images/x6.jpg" alt="" class="img-Margin">
+            <img src="./images/x7.jpg" alt="" class="img-Margin">
+
+        </div>
+    </main>
+
+    <main style="background-color: #f6f5f5;padding: 15px;">
+        <hr style="color: rgb(214, 213, 213); margin-top: 40px;">
+        <h3 style=" margin-top: 20px;margin-left: 20px;">Inspired by your browsing history</h3>
+        <main class="products2">
+            <div style="padding: 10px;">
+
+                <img src="./images/s1.jpg" alt="" class="img-Margin2">
+                <pre class="pree" style="font-size:large;"> <h4 style="color: rgb(60, 164, 129);"> Naväge Custom Cleaning Kit</h4>
+    <b><i class="fa-solid fa-star "></i><i class="fa-solid fa-star "></i><i class="fa-solid fa-star "></i><i class="fa-solid fa-star "></i><i class="fa-regular fa-star io"></i>  1,469</b>
+
+    <a style="background-color: rgb(0, 0, 0);color: white;padding: 7px;">Amazon's<a style="color: orange;background-color: rgb(0, 0, 0);padding: 7px;">Choice</a></a> in All-
+
+     Purpose Household Cleaners
+     <b>$7.95</b> ($7.95/Count)
+     $13.86 shipping</pre>
+
+
+                <img src="./images/s3.jpg" alt="" class="img-Margin2">
+                <pre class="pree1" style="font-size:large;"> <h4 style="color: rgb(60, 164, 129);">                    Naväge Teal Travel Case
+                     (for The Navage Nose 
+                     Cleaner)</h4>
+                     <b><i class="fa-solid fa-star io"></i><i class="fa-solid fa-star io"></i><i class="fa-solid fa-star io"></i><i class="fa-solid fa-star io"></i><i class="fa-solid fa-star io"></i> 492</b>
+                   
+                     <b>$22.95</b> ($22.95/Count)
+                     Get it as soon as<b> Monday,
+                      Feb 13</b>
+                     $33.21 shipping</pre>
+
+
+                <img src="./images/s4.jpg" alt="" class="img-Margin2">
+                <pre class="pree2" style="font-size:large;"> <h4 style="color: rgb(60, 164, 129);">                 Navage Leopard Travel Bag 
+                  (for The Navage Nose
+                  Cleaner)</h4>
+                    <b><i class="fa-solid fa-star io"></i><i class="fa-solid fa-star io"></i><i class="fa-solid fa-star io"></i><i class="fa-solid fa-star io"></i><i class="fa-solid fa-star io"></i>2,181</b>
+               
+                    <b>$18.95</b> ($18.95/Count)
+                    Get it as soon as <b>Monday, 
+                     Feb 13</b>
+                    $20.55 shipping</pre>
+
+
+                <img src="./images/s2.jpg" alt="" class="img-Margin2">
+                <pre class="pree3" style="font-size:large;"> <h4 style="color: rgb(60, 164, 129);">               Navage Hunter Green Travel
+                 Bag (for The Navage
+                 Nose Cleaner)</h4>
+                    <b><i class="fa-solid fa-star io"></i><i class="fa-solid fa-star io"></i><i class="fa-solid fa-star io"></i><i class="fa-regular fa-star io"></i><i class="fa-regular fa-star io"></i> 2,181</b>
+               
+                    Purpose Household Cleaners
+                    <b>$18.95 </b>($18.95/Count)</pre>
+
+
+                <img src="./images/s5.jpg" alt="" class="img-Margin2">
+                <pre class="pree4" style="font-size:large;"> <h4 style="color: rgb(60, 164, 129);">                   FireAnt 16 Pack Silicone Salt 
+                   Pods Refills for Navage 
+                   Nasal Care, Reusable
+                   Silicone Refills</h4>
+                    <b><i class="fa-solid fa-star io"></i><i class="fa-regular fa-star io"></i><i class="fa-regular fa-star io"></i><i class="fa-regular fa-star io"></i><i class="fa-regular fa-star io"></i> 20</b>
+               
+                    <b>$12.99</b> ($0.81/Count)
+                    Get it as soon as <b>Monday,
+                    Feb 13</b>
+                    $16.93 shipping</pre>
+
+
+
+                <img src="./images/s6.jpg" alt="" class="img-Margin2">
+                <pre class="pree5" style="font-size:large;"> <h4 style="color: rgb(60, 164, 129);">               Navage Hunter Green Travel
+                Bag (for The Navage
+                Nose Cleaner)</h4>
+                 <b><i class="fa-solid fa-star io"></i><i class="fa-solid fa-star io"></i><i class="fa-solid fa-star io"></i><i class="fa-regular fa-star io"></i><i class="fa-regular fa-star io"></i> 2,181</b>
+                   
+                Purpose Household Cleaners
+                <b>$18.95 </b>($18.95/Count)</pre>
+
+            </div>
+            <hr style="color: rgb(214, 213, 213); margin-top: 300px;">
+            <div align="center" style="margin-top: 40px;">
+                <h4>See personalized recommendations</h4>
+                <br>
+                <button
+                    style="background-color: rgb(248, 184, 64);font-size: 20px; padding: 10px;width: 300px;border-radius: 9px;">Sign
+                    in</button>
+                <br><br>
+                <h4>New customer? <a href="#">Start here.</a></h4><br>
+
+            </div>
+            <hr style="color: rgb(214, 213, 213);">
+        </main>
+    </main>
+
+    <!-- <div class="shop" id="shop">
+    </div> -->
+    <!-- products -->
+
+
+    <!-- footers -->
+    <footer>
+        <a href="#home"><button class="footer1">Back to top</button></a>
+    </footer>
+
+    <footer class="footer2">
+        <div class="footer22" style="margin-left: 160px;">
+            </a>
+            <a class="a-footer" href="#">
+                <h2>Get to Know Us</h2><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Careers</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Blog</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>About Amazon</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Investor Relations</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Amazon Devices</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Amazon Science</h4><br>
+            </a>
+        </div>
+        <div class="footer22">
+            <a class="a-footer" href="#">
+                <h2>Make Money with Us</h2><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Sell products on Amazon</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Sell on Amazon Business</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Sell apps on Amazon</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Become an Affiliate</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Advertise Your Products</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Self-Publish with Us</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Host an Amazon Hub</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>›See More Make Money with Us</h4><br>
+            </a>
+        </div>
+        <div class="footer22">
+            <a class="a-footer" href="#">
+                <h2>Amazon Payment Products</h2><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Amazon Business Card</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Shop with Points</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Reload Your Balance</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Amazon Currency Converter</h4><br>
+            </a>
+        </div>
+        <div class="footer22">
+            <a class="a-footer" href="#">
+                <h2>Let Us Help You</h2><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Amazon and COVID-19</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Your Account</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Your Orders</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Shipping Rates & Policies</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Returns & Replacements</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Manage Your Content and Devices</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Amazon Assistant</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Help</h4><br>
+            </a>
+        </div>
+    </footer>
+
+    <footer class="footer3">
+        <hr style="color: rgb(84, 81, 81);">
+        <div align="center" style="margin-top: 60px;">
+            <a href="index.html"><button class="btn" style="background-color: rgb(39, 46, 61);"> <img
+                        src="./images/logo.png" id="logo4"></button></a>
+            <button class="btn"><i class="fa-solid fa-globe ioo"></i> English</button>
+            <button class="btn">$ USD - U.S. Dollar</button>
+            <button class="btn"> United States </button>
+        </div>
+    </footer>
+
+    <footer class="footer4">
+        <div class="footer222" style="margin-left: 230px;">
+            <a class="a-footer" href="#">
+                <pre>Amazon Music
+<div style="color: rgb(126, 126, 126);">Stream millions
+of songs</div></pre><br><br>
+            </a>
+
+            <a class="a-footer" href="#">
+                <pre>Amazon Business
+<div style="color: rgb(126, 126, 126);">Everything For
+Your Business</div></pre><br><br>
+            </a>
+
+            <a class="a-footer" href="#">
+                <pre>Box Office Mojo
+<div style="color: rgb(126, 126, 126);">Find Movie
+Box Office Data</div></pre><br><br>
+            </a>
+
+            <a class="a-footer" href="#">
+                <pre>Kindle Direct
+Publishing<div style="color: rgb(126, 126, 126);">Indie Digital &
+Print Publishing
+Made Easy</div></pre><br><br>
+            </a>
+        </div>
+
+        <div class="footer222">
+            <a class="a-footer" href="#">
+                <pre>Amazon 
+Advertising
+<div style="color: rgb(126, 126, 126);">Find, attract,
+and engage
+customers</div></pre><br><br>
+            </a>
+
+            <a class="a-footer" href="#">
+                <pre>AmazonGlobal
+<div style="color: rgb(126, 126, 126);">Ship Orders
+Internationally</div></pre><br><br>
+            </a>
+
+            <a class="a-footer" href="#">
+                <pre>ComiXology
+<div style="color: rgb(126, 126, 126);">Thousands of
+Digital Comics</div></pre><br><br>
+            </a>
+
+            <a class="a-footer" href="#">
+                <pre>Prime Video Direct
+<div style="color: rgb(126, 126, 126);">Video Distribution
+Made Easy</div></pre><br><br>
+            </a>
+
+            <a class="a-footer" href="#">
+                <pre>Blink                        
+<div style="color: rgb(126, 126, 126);">Smart Security
+for Every Home</div></pre><br><br>
+            </a>
+        </div>
+        <div class="footer222">
+            <a class="a-footer" href="#">
+                <a class="a-footer" href="#">
+                    <pre>Amazon Drive
+<div style="color: rgb(126, 126, 126);">Cloud storage
+from Amazon</div></pre><br><br>
+                </a>
+
+                <a class="a-footer" href="#">
+                    <pre>Home Services
+<div style="color: rgb(126, 126, 126);">Experienced Pros
+Happiness Guarantee</div></pre><br><br>
+                </a>
+
+                <a class="a-footer" href="#">
+                    <pre>DPReview
+<div style="color: rgb(126, 126, 126);">Digital
+Photography</div></pre><br><br>
+                </a>
+
+                <a class="a-footer" href="#">
+                    <pre>Shopbop
+<div style="color: rgb(126, 126, 126);">Designer
+Fashion Brands</div></pre><br><br>
+                </a>
+
+                <a class="a-footer" href="#">
+                    <pre>Neighbors App
+<div style="color: rgb(126, 126, 126);">Real-Time Crime
+& Safety Alerts</div></pre><br><br>
+                </a>
+        </div>
+
+        <div class="footer222">
+            <a class="a-footer" href="#">
+                <a class="a-footer" href="#">
+                    <pre>6pm
+<div style="color: rgb(126, 126, 126);">Score deals
+on fashion brands</div></pre><br><br>
+                </a>
+
+                <a class="a-footer" href="#">
+                    <pre>Amazon Ignite      
+<div style="color: rgb(126, 126, 126);">Sell your original
+Digital Educational
+Resources</div></pre><br><br>
+                </a>
+
+                <a class="a-footer" href="#">
+                    <pre>Fabric
+<div style="color: rgb(126, 126, 126);">Sewing, Quilting
+& Knitting</div></pre><br><br>
+                </a>
+
+                <a class="a-footer" href="#">
+                    <pre>Woot!
+<div style="color: rgb(126, 126, 126);">Deals and
+Shenanigans</div></pre><br><br>
+                </a>
+
+                <a class="a-footer" href="#">
+                    <pre>Amazon Subscription
+Boxes
+<div style="color: rgb(126, 126, 126);">Top subscription boxes
+– right to your door</div></pre><br><br>
+                </a>
+        </div>
+
+        <div class="footer222">
+            <a class="a-footer" href="#">
+                <a class="a-footer" href="#">
+                    <pre>AbeBooks
+<div style="color: rgb(126, 126, 126);">Books, art
+& collectibles</div></pre><br><br>
+                </a>
+
+                <a class="a-footer" href="#">
+                    <pre>Amazon Web
+Services  
+<div style="color: rgb(126, 126, 126);">Scalable Cloud
+Computing Services</div></pre><br><br>
+                </a>
+
+                <a class="a-footer" href="#">
+                    <pre>Goodreads
+<div style="color: rgb(126, 126, 126);">Book reviews
+& recommendations</div></pre><br><br>
+                </a>
+
+                <a class="a-footer" href="#">
+                    <pre>Zappos
+<div style="color: rgb(126, 126, 126);">Shoes &
+Clothing</div></pre><br><br>
+                </a>
+
+                <a class="a-footer" href="#">
+                    <pre>PillPack
+<div style="color: rgb(126, 126, 126);">Pharmacy
+Simplified</div></pre><br><br>
+                </a>
+        </div>
+
+        <div class="footer222">
+            <a class="a-footer" href="#">
+                <pre>ACX
+<div style="color: rgb(126, 126, 126);">Audiobook
+Publishing
+Made Easy</div></pre><br><br>
+            </a>
+
+            <a class="a-footer" href="#">
+                <pre>Audible
+<div style="color: rgb(126, 126, 126);">Listen to Books
+& Original
+Audio Performances</div></pre><br><br>
+            </a>
+
+            <a class="a-footer" href="#">
+                <pre>IMDb
+<div style="color: rgb(126, 126, 126);">Movies, TV
+& Celebrities</div></pre><br><br>
+            </a>
+
+            <a class="a-footer" href="#">
+                <pre>Ring
+<div style="color: rgb(126, 126, 126);">Smart Home
+Security Systems</div></pre><br><br>
+            </a>
+        </div>
+
+        <div class="footer222">
+            <a class="a-footer" href="#">
+                <pre>Sell on Amazon
+<div style="color: rgb(126, 126, 126);">Start a Selling
+Account</div></pre><br><br>
+            </a>
+
+            <a class="a-footer" href="#">
+                <pre>Book Depository
+<div style="color: rgb(126, 126, 126);">Books With Free
+Delivery Worldwide</div></pre><br><br>
+            </a>
+
+            <a class="a-footer" href="#">
+                <pre>IMDbPro
+<div style="color: rgb(126, 126, 126);">Get Info
+Entertainment
+Professionals
+Need</div></pre><br><br>
+            </a>
+
+            <a class="a-footer" href="#">
+                <pre>eero WiFi
+<div style="color: rgb(126, 126, 126);">Stream 4K Video
+in Every Room</div></pre><br><br>
+            </a>
+
+        </div>
+    </footer>
+
+    <footer class="footer5">
+        <b>Conditions of Use Privacy Notice Your Ads Privacy Choices</b><br>
+        <b>© 1996-2023, Amazon.com, Inc. or its affiliates</b>
+    </footer>
+    <!-- footers -->
+
+
+    <script src="./js/Data.js"></script>
+    <script src="./js/product_home.js"></script>
+    <script src="./js/home.js"></script>
+    <script src="./js/Create_account.js"></script>
+    <script src="./js/Sign_in.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Cards</title>
+
+    <!-- icon -->
+    <script src="https://kit.fontawesome.com/26f3c2e8ac.js" crossorigin="anonymous"></script>
+    <!-- icon -->
+    <!-- style css -->
+    <link rel="stylesheet" href="./Css/GiftCards.css">
+    <link rel="stylesheet" href="./Css/Slider.CSS">
+    <!-- style css -->
+</head>
+
+<body>
+    <!-- Headers -->
+
+    <header id="Nav_menu1">
+        <ul class="ul1 ">
+            <a href="index.html">
+                <li class="li1  li2"><img src="./images/logo.png" id="logo"></li>
+            </a>
+            <li class="li1">
+                <div style="margin-left: 30px;" class="border-white">
+                    <p id="home" style="color: white;">Deliver To</p>
+                    <div class="icon-address">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h3>Egypt</h3>
+                    </div>
+                </div>
+            </li>
+            <li class="li1">
+                <div class="search-container">
+                    <select class="select-search">
+                        <option selected value="search-alias=aps" disabled>&nbsp;&nbsp;&nbsp;All </option>
+                        <option value="search-alias=arts-crafts-intl-ship">Arts & Crafts</option>
+                        <option value="search-alias=automotive-intl-ship">Automotive</option>
+                        <option value="search-alias=baby-products-intl-ship">Baby</option>
+                        <option value="search-alias=beauty-intl-ship">Beauty & Personal Care</option>
+                        <option value="search-alias=stripbooks-intl-ship">Books</option>
+                        <option value="search-alias=fashion-boys-intl-ship">Boys' Fashion</option>
+                        <option value="search-alias=computers-intl-ship">Computers</option>
+                        <option value="search-alias=deals-intl-ship">Deals</option>
+                        <option value="search-alias=digital-music">Digital Music</option>
+                        <option value="search-alias=electronics-intl-ship">Electronics</option>
+                        <option value="search-alias=fashion-girls-intl-ship">Girls' Fashion</option>
+                        <option value="search-alias=hpc-intl-ship">Health & Household</option>
+                        <option value="search-alias=kitchen-intl-ship">Home & Kitchen</option>
+                        <option value="search-alias=industrial-intl-ship">Industrial & Scientific</option>
+                        <option value="search-alias=digital-text">Kindle Store</option>
+                        <option value="search-alias=luggage-intl-ship">Luggage</option>
+                    </select>
+                    <input type="text" placeholder="Search Amazon" class="search-input">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass" style="color: white;"></i>
+                    </div>
+                </div>
+            </li>
+
+            <li class="li3" style="float:right">
+                <div class="Cart-container" style="float:right">
+                    <a href="cart.html">
+                        <i class="fa-solid fa-cart-shopping">
+                        </i>
+                        <span id="cartamount" class="cartamount">0</span>
+                        <p style="color: white;">Cart</p>
+                    </a>
+                </div>
+            </li>
+
+            <li class="li1" style="float:right">
+                <div class="return-order-container">
+                    <p style="color: white;">Returns <span class="order"> & Orders</span></p>
+                </div>
+            </li>
+            <li class="li1" style="float:right">
+                <div class="online" class="nav-profile-img" onclick="toggleMenu()">
+                    <x class="login-container ">
+                        <p style="margin-top: -10px;">Hello,<span></span></p>
+                        <p class="account">Account & Lists</p>
+                    </x>
+                </div>
+            </li>
+
+            <li class="li1">
+                <div class="language-container border-white" style="margin-top: 5px;">
+                    <img src="./images/EN.jpg" alt="">
+                    <select name="language">
+                        <option value="english">EN</option>
+                        <option value="arabic">AR</option>
+                    </select>
+                </div>
+            </li>
+        </ul>
+    </header>
+
+    <!-------------profile-drop-down-menu-------------------------------------->
+    <nav class="Position_menu">
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="./images/logo.png">
+                    <div>
+                        <h3>Amazon-Profile</h3>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <p>Give feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <p>Setting & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="Create_account.html" class="profile-menu-link">
+                    <p>Register account</p>
+                    <span>></span>
+                </a>
+                <a href="Sign_in.html" class="profile-menu-link">
+                    <p>Sign in</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!---------------profile-drop-down-menu----------------->
+
+    <header id="Nav_menu2">
+        <ul class="ul2">
+            <li class="li22">
+                <i class="fa-solid fa-bars i_nav"></i>All
+            </li>
+            <li class="li22">
+                Today's Deals
+            </li>
+            <li class="li22">
+                Customer service
+            </li>
+            <li class="li22">
+                <a href="Register.html" class="a1">Registry</a>
+            </li>
+            <li class="li22">
+                <a href="GiftsCards.html" class="a1">Gift Cards</a>
+            </li>
+            <li class="li22">
+                Sell
+            </li>
+            <li class="li22" style="float: right;">
+                Shop great deals now
+            </li>
+        </ul>
+
+    </header>
+    <!-- Headers -->
+
+
+    <section class="catagories-container">
+        <nav class="catagory-nav">
+            <a class="nav-link active" aria-current="page" href="#">
+                <select name="" id="">
+                    <option value="">
+                        Gift Cards
+                    </option>
+                </select>
+            </a>
+            <a class="nav-link" href="#">Best Sellers</a>
+            <a class="nav-link" href="#">
+                <select name="" id="">
+                    <option value="">
+                        By occasion
+                    </option>
+                </select>
+            </a>
+            <a class="nav-link disabled" href="#">Redeem Gift Cards</a>
+            <a class="nav-link disabled" href="#">View Your Balance</a>
+            <a class="nav-link disabled" href="#">Reload Your Balance</a>
+            <a class="nav-link disabled" href="#">Amazon Cash</a>
+            <a class="nav-link disabled" href="#">For Businesses</a>
+            <a class="nav-link disabled" href="#">Be Informed</a>
+            <a class="nav-link disabled" href="#">Find a Gift</a>
+            <a class="nav-link disabled" href="#">Registry & Gifting</a>
+        </nav>
+    </section>
+
+    <nav class="nav-box-left">
+        <div class="section-left"></div>
+        <p>Delivery Type</p><br>
+        <div>
+            <p>
+                <input type="checkbox">
+                eGift CArt
+            </p><br>
+            <p>
+                <input type="checkbox">
+                Mail
+            </p><br>
+            <p>
+                <input type="checkbox">
+                Print at Home
+            </p><br>
+            <p>
+            <h4>Format</h4><br>
+
+            <input type="checkbox">
+            Add your Photo</p><br>
+            <p>
+                <input type="checkbox">
+                Add your Apload
+            </p><br>
+            <p>
+                <input type="checkbox">
+                Animation
+            </p><br>
+            <p>
+                <input type="checkbox">
+                BookMark
+            </p><br>
+            <p>
+                <input type="checkbox">
+                Gift Bag
+            </p><br>
+            <p>
+                <input type="checkbox">
+                Gift Box
+            </p><br>
+            <p>
+                <input type="checkbox">
+                Gift Tag
+            </p><br>
+            <p>
+                <input type="checkbox">
+                Greeting Card
+            </p><br>
+            <p>
+                <input type="checkbox">
+                Mini Envelpe
+            </p><br>
+            <p>
+                <input type="checkbox">
+                Multi-Back
+            </p><br>
+            <p>
+                <input type="checkbox">
+                Print & Fold
+            </p><br>
+            <p><br>
+            <p>
+                <input type="checkbox">
+                Reaveal
+            </p><br>
+            <p><br>
+            <p>
+                <input type="checkbox">
+                Standard Designs.
+            </p><br>
+            <p><br>
+            <h4>Featured Brands</h4><br>
+            <p>
+                <input type="checkbox">
+                Amazon
+            </p><br>
+            <p><br>
+            <p>
+                <input type="checkbox">
+                Google
+            </p><br>
+            <p><br>
+            <p>
+                <input type="checkbox">
+                Door Dash
+            </p><br>
+            <p><br>
+            <p>
+                <input type="checkbox">
+                Uper
+            </p><br>
+            <p><br>
+            <h3>Category</h3><br>
+            <p>
+
+                <input type="checkbox">
+                Amazon Gift Cards
+            </p><br>
+            <p><br>
+            <p>
+                <input type="checkbox">
+                Clothes & Shoes & Accessories
+            </p><br>
+            <p><br>
+            <p>
+                <input type="checkbox">
+                Home & Garden
+            </p><br>
+            <p><br>
+            <p>
+                <input type="checkbox">
+                Hotels & Travels
+            </p><br>
+            <p><br>
+
+            <p>
+                <input type="checkbox">
+                Restaurants
+            </p><br>
+            <p><br>
+            <h3>Occasion</h3><br>
+
+            <p>
+                <input type="checkbox">
+                Anniversary
+            </p><br>
+            <p><br>
+            <p>
+                <input type="checkbox">
+                Baby & Expecting
+            </p><br>
+            <p><br>
+            <p>
+                <input type="checkbox">
+                Birthday
+            </p><br>
+            <p><br>
+            <p>
+                <input type="checkbox">
+                Christmas
+            </p><br>
+            <p><br>
+            <p>
+                <input type="checkbox">
+                Congratulations
+            </p><br>
+            <p><br>
+            <p>
+                <input type="checkbox">
+                Father's Day
+            </p><br>
+            <p><br>
+            <p>
+                <input type="checkbox">
+                Just Because
+            </p><br>
+            <p><br>
+            <p>
+                <input type="checkbox">
+                Mother's Day
+            </p><br>
+            <p><br>
+            <p>
+                <input type="checkbox">
+                Thank You & Appreciation
+            </p><br>
+            <p><br>
+            <p>
+                <input type="checkbox">
+                Valentine's Day
+            </p><br>
+            <p><br>
+            <h3>Seller</h3><br>
+            <p>
+                <input type="checkbox">
+                Amazon.com
+            </p><br>
+            <p><br>
+            <p>
+                <input type="checkbox">
+                Bluenine
+            </p><br>
+            <p><br>
+            <p>
+                <input type="checkbox">
+                Amazon Payments, Inc.
+            </p><br>
+            <p><br>
+            <p>
+                <input type="checkbox">
+                SS Shop.
+            </p><br>
+            <p><br>
+            <p>
+                <input type="checkbox">
+                888Lots
+            </p><br>
+            <p><br>
+            <p>
+                <input type="checkbox">
+                FAADBUK
+            </p><br>
+            <p><br>
+            <p>
+                <input type="checkbox">
+                Tennis Point
+            </p><br>
+            <p><br>
+            <p>
+                <input type="checkbox">
+                Amazon.com Services LLC
+            </p><br>
+            <p><br>
+            <p>
+                <input type="checkbox">
+                RIS DY
+            </p><br>
+            <p><br>
+            <p>
+                <input type="checkbox">
+                TIIMG
+            </p><br>
+            <p><br>
+            <h3>Avg. Customer Review</h3><br>
+            <ul>
+                <li style="list-style-type: none;"><a href="#" style="text-decoration: none;color: orange;"><i
+                            class="fa-solid fa-star io color-star"></i><i class="fa-solid fa-star io color-star"></i><i
+                            class="fa-solid fa-star io color-star"></i><i class="fa-solid fa-star io color-star"></i><i
+                            class="fa-regular fa-star io color-star"></i> & up</a></li>
+                <li style="list-style-type: none;"><a href="#" style="text-decoration: none;color: orange;"><i
+                            class="fa-solid fa-star io color-star"></i><i class="fa-solid fa-star io color-star"></i><i
+                            class="fa-solid fa-star io color-star"></i><i
+                            class="fa-regular fa-star io color-star"></i><i
+                            class="fa-regular fa-star io color-star"></i> & up</a></li>
+                <li style="list-style-type: none;"><a href="#" style="text-decoration: none;color: orange;"><i
+                            class="fa-solid fa-star io color-star"></i><i class="fa-solid fa-star io color-star"></i><i
+                            class="fa-regular fa-star io color-star"></i><i
+                            class="fa-regular fa-star io color-star"></i><i
+                            class="fa-regular fa-star io color-star"></i> & up</a></li>
+                <li style="list-style-type: none;"><a href="#" style="text-decoration: none;color: orange;"><i
+                            class="fa-solid fa-star io color-star"></i><i
+                            class="fa-regular fa-star io color-star"></i><i
+                            class="fa-regular fa-star io color-star"></i><i
+                            class="fa-regular fa-star io color-star"></i><i
+                            class="fa-regular fa-star io color-star"></i> & up</a></li>
+                <br><br>
+
+            </ul>
+            <h3>Price</h3><br>
+            <p><a class="price" href="#">Up to $25</a></p><br>
+            <p><a class="price" href="#">$25 to $50</a></p><br>
+            <p><a class="price" href="#">$50 to $100</a></p><br>
+            <p><a class="price" href="#">$100 to $200</a></p><br>
+            <p><a class="price" href="#">$200 & above</a></p><br>
+            <h3>Department</h3><br>
+            <h3>Gift Cards</h3><br>
+            <span>
+                <p><a class="price" href="#">Gift Cards</a></p><br>
+                <p><a class="price" href="#">Gift Cards</a></p><br>
+            </span>
+            <h3>New Arrivals</h3><br>
+            <p><a class="price" href="#">Last 30 Days</a></p><br>
+            <p><a class="price" href="#">Last 90 Days</a></p><br>
+            <h3>Deals & Discounts</h3><br>
+            <p><a class="price" href="#">All Discounts</a></p><br>
+            <h3>Availability</h3><br>
+            <p>
+                <input type="checkbox">
+                Include Out of Stock
+            </p><br>
+            <p><br>
+        </div>
+    </nav>
+
+    <section class="nav-box-right">
+        <!-- shop  by occasion -->
+
+        <div class="nav-address-body">
+            <h1>Shop the perfect gift card</h1>
+        </div>
+        <hr><br>
+        <!-- /*Shop by occasion -->
+        <div>
+            <h1>Shop by occasion</h1><br><br>
+            <div class="div-button-Shop-by-occasion">
+                <h6>New year</h6>
+            </div>
+            <div class="div-button-Shop-by-occasion">
+
+                <h6>Valentine's Day</h6>
+            </div>
+            <div class="div-button-Shop-by-occasion">
+
+                <h6>Birthday</h6>
+            </div>
+            <div class="div-button-Shop-by-occasion">
+
+                <h6>Thank you</h6>
+            </div>
+            <div class="div-button-Shop-by-occasion">
+
+                <h6>Work Place</h6>
+            </div>
+            <div class="div-button-Shop-by-occasion">
+
+                <h6>New Baby</h6>
+            </div><br><br>
+
+            <div>
+                <a class="link-See-All-Accessories" href="#">See All occasions</a>
+            </div><br><br>
+        </div>
+        <!-- shop-by-card-type -->
+        <div>
+            <div class="Shop-by-card-type-address-body">
+                <h1>Shop by card type</h1>
+            </div><br><br>
+
+            <div class="shop-by-card-type">
+
+                <div class="div-shop-by-card-type">
+                    <div>
+                        <a href="#"><img src="img/aGift-card.jpg" alt=""></a><br>
+                        <p><strong> eGift Cards</strong><br>
+                            Add your personal <br> message and send by email or text.</p>
+                        <a href="#">See options</a>
+                    </div>
+                </div>
+
+                <div class="div-shop-by-card-type">
+                    <div>
+                        <a href="#"><img src="img/physical-card.jpg" alt=""></a>
+                        <p><strong> Physical gift cards</strong> <br>
+                            Send a smile with <br> unique designs and fun packaging.</p>
+                        <a href="#">Shop now</a>
+                    </div>
+
+                </div>
+                <div class="div-shop-by-card-type">
+                    <div>
+                        <a href="#"><img src="img/Print-At-homw.jpg" alt=""></a>
+                        <p><strong>Print at home</strong><br>
+                            Print and fold <br> an Amazon Gift Card at home.
+                        </p>
+                        <a href="#">Get started</a>
+                    </div>
+                </div>
+            </div><br><br>
+        </div>
+
+        <!-- section specialy img dift card -->
+        <div class="specialy-img-dift-card">
+            <hr><br><br>
+            <div class="div-specialy-img-dift-card">
+                <div>
+                    <a href="#"><img src="img/specialy-img-gift.jpg" alt=""></a>
+                    <p><strong> Specialty gift cards</strong><br>
+                        Give a gift from their favorite brand.
+                    </p>
+                    <a href="#">See all brands</a>
+                </div>
+            </div>
+            <div class="div-specialy-img-dift-card div-specialy-img-dift-card-img2">
+                <div>
+                    <a href="#"><img src="img/amazon-reload.jpg" alt=""></a>
+                    <p><strong> Amazon Reload</strong><br>
+                        Easily add funds to your gift card balance.
+                    </p>
+                    <a href="#">Find out how</a>
+                </div>
+            </div>
+
+        </div>
+        <!-- luner new year -->
+        <!-- <div class="luner-new-year-container">
+            <div class="luner-new-year" >
+                <h1>luner new year</h1><br>
+                <h4>Best wishes for the Year of the Rabbit</h4>
+            </div>
+            <hr class="hr-luner-new-year-container">
+        </div> -->
+        <section id="slider">
+            <div class="container">
+                <div class="subcontainer">
+                    <div class="slider-wrapper">
+                        <div>
+                            <h1>Lunar New Year</h1>
+                            <h3>Best wishes for the Year of the Rabbit</h3>
+                        </div>
+                        <br>
+                        <div class="my-slider">
+                            <div style="float: left;">
+                                <div class="slide">
+                                    <div class="slide-img img-1">
+                                        <a href="#">Learn More</a>
+                                    </div>
+                                    <br>
+                                    <div>
+                                        <h3>Amazon.com eGift Card</h3>
+                                        <p>Amazon</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="float: left;">
+                                <div class="slide">
+                                    <div class="slide-img img-2">
+                                        <a href="#">Learn More</a>
+                                    </div>
+                                    <br>
+                                    <div>
+                                        <h3>Amazon.com eGift Card</h3>
+                                        <p>Amazon</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="float: left;">
+                                <div class="slide">
+                                    <div class="slide-img img-3">
+                                        <a href="#">Learn More</a>
+                                    </div>
+                                    <br>
+                                    <div>
+                                        <h3>Amazon.com eGift Card</h3>
+                                        <p>Amazon</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="float: left;">
+                                <div class="slide">
+                                    <div class="slide-img img-4">
+                                        <a href="#">Learn More</a>
+                                    </div>
+                                    <br>
+                                    <div>
+                                        <h3>Amazon.com eGift Card</h3>
+                                        <p>Amazon</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="float: left;">
+                                <div class="slide">
+                                    <div class="slide-img img-5">
+                                        <a href="#">Learn More</a>
+                                    </div>
+                                    <br>
+                                    <div>
+                                        <h3>Amazon.com eGift Card</h3>
+                                        <p>Amazon</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="img-slider">
+            <img cl="photo" class="photo-right1" id="photo1" src="img/slider.jpg">
+            <img cl="photo" class="photo-right2" id="photo2" src="img/slider1.jpg">
+            <img cl="photo" class="photo-right3" id="photo3" src="img/slider2.jpg">
+            <img cl="photo" class="photo-right4" id="photo4" src="img/slider3.jpg">
+            <img cl="photo" class="photo-right5" id="photo5" src="img/slider4.jpg">
+            <img cl="photo" class="photo-right6" id="photo6" src="img/slider5.jpg">
+            <img cl="photo" class="photo-right7" id="photo7" src="img/slider6.jpg">
+            <img cl="photo" class="photo-right8" id="photo8" src="img/slider7.jpg">
+
+            <div class="arrow-left">
+                <i class="fa-solid fa-angle-left" onclick="left(this)"></i>
+            </div>
+            <div class="arrow-right">
+                <i class="fa-solid fa-angle-right" onclick="right(this)"></i>
+            </div>
+        </section> -->
+    </section>
+
+
+    <!-- footers -->
+    <footer>
+        <a href="#home"><button class="footer1">Back to top</button></a>
+    </footer>
+
+    <footer class="footer2">
+        <div class="footer22" style="margin-left: 160px;">
+            </a>
+            <a class="a-footer" href="#">
+                <h2>Get to Know Us</h2><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Careers</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Blog</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>About Amazon</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Investor Relations</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Amazon Devices</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Amazon Science</h4><br>
+            </a>
+        </div>
+        <div class="footer22">
+            <a class="a-footer" href="#">
+                <h2>Make Money with Us</h2><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Sell products on Amazon</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Sell on Amazon Business</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Sell apps on Amazon</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Become an Affiliate</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Advertise Your Products</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Self-Publish with Us</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Host an Amazon Hub</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>›See More Make Money with Us</h4><br>
+            </a>
+        </div>
+        <div class="footer22">
+            <a class="a-footer" href="#">
+                <h2>Amazon Payment Products</h2><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Amazon Business Card</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Shop with Points</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Reload Your Balance</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Amazon Currency Converter</h4><br>
+            </a>
+        </div>
+        <div class="footer22">
+            <a class="a-footer" href="#">
+                <h2>Let Us Help You</h2><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Amazon and COVID-19</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Your Account</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Your Orders</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Shipping Rates & Policies</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Returns & Replacements</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Manage Your Content and Devices</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Amazon Assistant</h4><br>
+            </a>
+            <a class="a-footer" href="#">
+                <h4>Help</h4><br>
+            </a>
+        </div>
+    </footer>
+
+    <footer class="footer3">
+        <hr style="color: rgb(84, 81, 81);">
+        <div align="center" style="margin-top: 60px;">
+            <a href="index.html"><button class="btn" style="background-color: rgb(39, 46, 61);"> <img
+                        src="./images/logo.png" id="logo4"></button></a>
+            <button class="btn"><i class="fa-solid fa-globe ioo"></i> English</button>
+            <button class="btn">$ USD - U.S. Dollar</button>
+            <button class="btn"> United States </button>
+        </div>
+    </footer>
+
+    <footer class="footer4">
+        <div class="footer222" style="margin-left: 230px;">
+            <a class="a-footer" href="#">
+                <pre>Amazon Music
+<div style="color: rgb(126, 126, 126);">Stream millions
+of songs</div></pre><br><br>
+            </a>
+
+            <a class="a-footer" href="#">
+                <pre>Amazon Business
+<div style="color: rgb(126, 126, 126);">Everything For
+Your Business</div></pre><br><br>
+            </a>
+
+            <a class="a-footer" href="#">
+                <pre>Box Office Mojo
+<div style="color: rgb(126, 126, 126);">Find Movie
+Box Office Data</div></pre><br><br>
+            </a>
+
+            <a class="a-footer" href="#">
+                <pre>Kindle Direct
+Publishing<div style="color: rgb(126, 126, 126);">Indie Digital &
+Print Publishing
+Made Easy</div></pre><br><br>
+            </a>
+        </div>
+
+        <div class="footer222">
+            <a class="a-footer" href="#">
+                <pre>Amazon 
+Advertising
+<div style="color: rgb(126, 126, 126);">Find, attract,
+and engage
+customers</div></pre><br><br>
+            </a>
+
+            <a class="a-footer" href="#">
+                <pre>AmazonGlobal
+<div style="color: rgb(126, 126, 126);">Ship Orders
+Internationally</div></pre><br><br>
+            </a>
+
+            <a class="a-footer" href="#">
+                <pre>ComiXology
+<div style="color: rgb(126, 126, 126);">Thousands of
+Digital Comics</div></pre><br><br>
+            </a>
+
+            <a class="a-footer" href="#">
+                <pre>Prime Video Direct
+<div style="color: rgb(126, 126, 126);">Video Distribution
+Made Easy</div></pre><br><br>
+            </a>
+
+            <a class="a-footer" href="#">
+                <pre>Blink                        
+<div style="color: rgb(126, 126, 126);">Smart Security
+for Every Home</div></pre><br><br>
+            </a>
+        </div>
+        <div class="footer222">
+            <a class="a-footer" href="#">
+                <a class="a-footer" href="#">
+                    <pre>Amazon Drive
+<div style="color: rgb(126, 126, 126);">Cloud storage
+from Amazon</div></pre><br><br>
+                </a>
+
+                <a class="a-footer" href="#">
+                    <pre>Home Services
+<div style="color: rgb(126, 126, 126);">Experienced Pros
+Happiness Guarantee</div></pre><br><br>
+                </a>
+
+                <a class="a-footer" href="#">
+                    <pre>DPReview
+<div style="color: rgb(126, 126, 126);">Digital
+Photography</div></pre><br><br>
+                </a>
+
+                <a class="a-footer" href="#">
+                    <pre>Shopbop
+<div style="color: rgb(126, 126, 126);">Designer
+Fashion Brands</div></pre><br><br>
+                </a>
+
+                <a class="a-footer" href="#">
+                    <pre>Neighbors App
+<div style="color: rgb(126, 126, 126);">Real-Time Crime
+& Safety Alerts</div></pre><br><br>
+                </a>
+        </div>
+
+        <div class="footer222">
+            <a class="a-footer" href="#">
+                <a class="a-footer" href="#">
+                    <pre>6pm
+<div style="color: rgb(126, 126, 126);">Score deals
+on fashion brands</div></pre><br><br>
+                </a>
+
+                <a class="a-footer" href="#">
+                    <pre>Amazon Ignite      
+<div style="color: rgb(126, 126, 126);">Sell your original
+Digital Educational
+Resources</div></pre><br><br>
+                </a>
+
+                <a class="a-footer" href="#">
+                    <pre>Fabric
+<div style="color: rgb(126, 126, 126);">Sewing, Quilting
+& Knitting</div></pre><br><br>
+                </a>
+
+                <a class="a-footer" href="#">
+                    <pre>Woot!
+<div style="color: rgb(126, 126, 126);">Deals and
+Shenanigans</div></pre><br><br>
+                </a>
+
+                <a class="a-footer" href="#">
+                    <pre>Amazon Subscription
+Boxes
+<div style="color: rgb(126, 126, 126);">Top subscription boxes
+– right to your door</div></pre><br><br>
+                </a>
+        </div>
+
+        <div class="footer222">
+            <a class="a-footer" href="#">
+                <a class="a-footer" href="#">
+                    <pre>AbeBooks
+<div style="color: rgb(126, 126, 126);">Books, art
+& collectibles</div></pre><br><br>
+                </a>
+
+                <a class="a-footer" href="#">
+                    <pre>Amazon Web
+Services  
+<div style="color: rgb(126, 126, 126);">Scalable Cloud
+Computing Services</div></pre><br><br>
+                </a>
+
+                <a class="a-footer" href="#">
+                    <pre>Goodreads
+<div style="color: rgb(126, 126, 126);">Book reviews
+& recommendations</div></pre><br><br>
+                </a>
+
+                <a class="a-footer" href="#">
+                    <pre>Zappos
+<div style="color: rgb(126, 126, 126);">Shoes &
+Clothing</div></pre><br><br>
+                </a>
+
+                <a class="a-footer" href="#">
+                    <pre>PillPack
+<div style="color: rgb(126, 126, 126);">Pharmacy
+Simplified</div></pre><br><br>
+                </a>
+        </div>
+
+        <div class="footer222">
+            <a class="a-footer" href="#">
+                <pre>ACX
+<div style="color: rgb(126, 126, 126);">Audiobook
+Publishing
+Made Easy</div></pre><br><br>
+            </a>
+
+            <a class="a-footer" href="#">
+                <pre>Audible
+<div style="color: rgb(126, 126, 126);">Listen to Books
+& Original
+Audio Performances</div></pre><br><br>
+            </a>
+
+            <a class="a-footer" href="#">
+                <pre>IMDb
+<div style="color: rgb(126, 126, 126);">Movies, TV
+& Celebrities</div></pre><br><br>
+            </a>
+
+            <a class="a-footer" href="#">
+                <pre>Ring
+<div style="color: rgb(126, 126, 126);">Smart Home
+Security Systems</div></pre><br><br>
+            </a>
+        </div>
+
+        <div class="footer222">
+            <a class="a-footer" href="#">
+                <pre>Sell on Amazon
+<div style="color: rgb(126, 126, 126);">Start a Selling
+Account</div></pre><br><br>
+            </a>
+
+            <a class="a-footer" href="#">
+                <pre>Book Depository
+<div style="color: rgb(126, 126, 126);">Books With Free
+Delivery Worldwide</div></pre><br><br>
+            </a>
+
+            <a class="a-footer" href="#">
+                <pre>IMDbPro
+<div style="color: rgb(126, 126, 126);">Get Info
+Entertainment
+Professionals
+Need</div></pre><br><br>
+            </a>
+
+            <a class="a-footer" href="#">
+                <pre>eero WiFi
+<div style="color: rgb(126, 126, 126);">Stream 4K Video
+in Every Room</div></pre><br><br>
+            </a>
+
+        </div>
+    </footer>
+
+    <footer class="footer5">
+        <b>Conditions of Use Privacy Notice Your Ads Privacy Choices</b><br>
+        <b>© 1996-2023, Amazon.com, Inc. or its affiliates</b>
+    </footer>
+    <!-- footers -->
+
+    <script>
+        function left() {
+            var lefty = document.getElementById("photo1");
+            var let = document.getElementsByClassName('photo-right8');
+
+            lefty.style.display = "none";
+            let.style.display = "visible";
+
+        }
+        function right() {
+            var righty = document.getElementById("photo8");
+            var rit = document.getElementsByClassName('photo-right1');
+
+            righty.style.display = "none";
+            rit.style.display = "visible";
+
+        }
+    </script>
+    <script src="./js/cart.js"></script>
+    <script src="./js/Data.js"></script>
+    <script src="./js/product_home.js"></script>
+    <script src="./js/home.js"></script>
+    <script src="./js/Slider.Js"></script>
+</body>
+
+</html>

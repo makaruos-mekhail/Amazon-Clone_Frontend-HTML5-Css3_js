@@ -1,0 +1,132 @@
+
+body {
+    font-size: 14px;
+    line-height: 15px;
+    color: #111;
+    font-family: Arial,sans-serif;
+}
+
+header>div>img{
+    display: block;
+    width: 100px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#div1{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto; 
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    background-color: #ffffff;
+    height: 50% fixed; 
+    width: 50% fixed;
+}
+
+#div3{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 700px;
+    width: 350px;
+    border: 1px solid rgb(214, 207, 207);
+    padding: 4px;
+    background-color: #ffffff;
+    border-radius: 1em;
+    overflow: auto;
+}
+#div3>h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.label{
+    /* text-align: left !important; */
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    /* margin-left: 10px; */
+    /* margin-right: 200px; */
+    /* height: 30px;
+    width: 300px;
+    padding: 10px; */
+    padding-left: 2px;
+    font-weight: 700;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: left; */
+    /* margin-left: 300px; */
+    /* padding: 10px; */
+
+}
+input{
+    height: 30px;
+    width: 300px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: block;
+    border: 1px solid rgb(214, 207, 207);
+    border-radius: 0.5em;
+    padding: 5px;
+    font-size: medium;
+    outline: none;
+}
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+    width: 300px;
+    border: 1px solid rgb(211, 204, 204);
+    border-radius: 0.5em;
+    /* padding: 10px; */
+    background-image: linear-gradient( rgb(235, 176, 14), rgb(252, 194, 68));
+    font-size: large;
+}
+button[type=submit]:hover {
+    background-image: linear-gradient( rgb(255, 196, 0), rgb(252, 209, 118));
+    scale: 1.01;
+    color: black;
+    cursor: pointer;
+    outline: none;
+}
+
+form{
+    /* margin: auto; */
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+#policy{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(84, 153, 209);
+}
+a:hover{
+    color:#c45500;
+    text-decoration: underline;
+}
+#right-arrow{
+    display: inline-block;
+    transform: rotate(270deg);
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 12px solid rgb(82, 150, 228);
+    cursor: pointer;
+}
+#right-arrow:hover{
+    border-top: 12px solid #c45500;
+}

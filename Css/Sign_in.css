@@ -1,0 +1,168 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+} */
+
+body {
+    font-size: 14px;
+    line-height: 15px;
+    color: #111;
+    font-family: Arial,sans-serif;
+}
+header>div>img{
+    display: block;
+    width: 100px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#div1{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto; 
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    background-color: #ffffff;
+    height: 50% fixed; 
+    width: 50% fixed;
+}
+/* #div2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 50%;
+    width: 50%;
+    margin-bottom: 20px;
+    border: 1px solid rgb(214, 207, 207);
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 1em;
+} */
+#div3{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 500px;
+    width: 350px;
+    border: 1px solid rgb(214, 207, 207);
+    padding: 4px;
+    background-color: #ffffff;
+    border-radius: 1em;
+    /* height: 50% fixed;
+    width: 50% fixed; */
+    /* margin-left: 300px; */
+    /* text-align: center; */
+}
+#div3>h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.label{
+    /* text-align: left !important; */
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    /* margin-left: 10px; */
+    /* margin-right: 200px; */
+    /* height: 30px;
+    width: 300px;
+    padding: 10px; */
+    padding-left: 2px;
+    font-weight: 700;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: left; */
+    /* margin-left: 300px; */
+    /* padding: 10px; */
+
+}
+input{
+    height: 30px;
+    width: 300px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: block;
+    border: 1px solid rgb(214, 207, 207);
+    border-radius: 0.5em;
+    padding: 5px;
+    font-size: medium;
+    block-size: 30px;
+    outline: none;
+}
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+    width: 300px;
+    border: 1px solid rgb(211, 204, 204);
+    border-radius: 0.5em;
+    /* padding: 10px; */
+    background-image: linear-gradient( rgb(235, 176, 14), rgb(252, 194, 68));
+    font-size: large;
+}
+button[type=submit]:hover {
+    background-image: linear-gradient( rgb(255, 196, 0), rgb(252, 209, 118));
+    color: black;
+    cursor: pointer;
+    scale: 1.01;
+}
+
+form{
+    /* margin: auto; */
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+#policy{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(84, 153, 209);
+}
+a:hover{
+    color:#c45500;
+    text-decoration: underline;
+}
+#createmail>div{
+    display: inline-block;
+    margin-left: 65px;
+    background-image: linear-gradient( rgb(255, 255, 255), rgb(182, 177, 177));
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 0.5em;
+    padding: 8px;
+    color: rgb(24, 22, 22);
+    border: 1px solid rgb(27, 26, 26);
+}
+#createmail>div>a{
+    text-decoration: none;
+    color: rgb(22, 22, 22) ;
+    font-size: 14px;
+    font-weight: 500;
+}
+#createmail>div:hover{
+    background-image: linear-gradient( rgb(255, 255, 255), rgb(221, 221, 221));
+    scale: 1.01;
+}
+
+#createmail>p{
+    text-align: center; 
+   border-bottom: 1px solid rgb(223, 205, 205); 
+    text-align: center;
+}
