@@ -15,7 +15,7 @@ let element = document.getElementById('samir');
 
 
 function Detailspage() {
-  newwin = window.open("Detalis.html", "_self" )
+  newwin = window.open("detalis.html", "_self" )
 
 }
 
