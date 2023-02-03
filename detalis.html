@@ -13,7 +13,9 @@
     <!-- icon -->
 
     <!-- style css -->
-    <link rel="stylesheet" href="./Css/GiftCards.css">
+    <link rel="stylesheet" href="./Css/home.css">
+    <link rel="stylesheet" href="./Css/Detalis.css">
+
     <!-- style css -->
 </head>
 
@@ -81,7 +83,7 @@
             <li class="li1" style="float:right">
                 <div class="online" class="nav-profile-img" onclick="toggleMenu()">
                     <x class="login-container ">
-                        <p style="margin-top: -10px;">Hello,<span></span></p>
+                        <p style="margin-top: -10px;">Hello,&nbsp;<span id="namelocalstorage"></span></p>
                         <p class="account">Account & Lists</p>
                     </x>
                 </div>
@@ -89,10 +91,10 @@
 
             <li class="li1">
                 <div class="language-container border-white" style="margin-top: 5px;">
-                    <img src="./images/EN.jpg" alt="">
+                    <img src="./images/Eg.png" alt="">
                     <select name="language">
-                        <option value="english">EN</option>
-                        <option value="arabic">AR</option>
+                        <option value="english">AR</option>
+                        <option value="arabic">EN</option>
                     </select>
                 </div>
             </li>
@@ -136,7 +138,7 @@
     <!---------------profile-drop-down-menu----------------->
 
     <header id="Nav_menu2">
-        <ul class="ul2">
+        <ul class="ul2" style="height: 50px;">
             <li class="li22">
                 <i class="fa-solid fa-bars i_nav"></i>All
             </li>
@@ -163,16 +165,19 @@
     </header>
     <!-- Headers -->
 
-
-
+    
     <section class="nav-box-right">
         <div class="nav-address-body">
             <h1>Details-Producet</h1>
         </div>
         <hr>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </section>
+<!-- /////////////////////////// aside////////////////////////////// -->
+
+<div id="samir">
+
+</div>
+
 
 
 
@@ -289,7 +294,7 @@
         <hr style="color: rgb(84, 81, 81);">
         <div align="center" style="margin-top: 60px;">
             <a href="index.html"><button class="btn" style="background-color: rgb(39, 46, 61);"> <img
-                        src="./images/logo.png" id="logo4"></button></a>
+                        src="./images/logo.png" style="height:31px ;justify-content: center;margin-bottom: -10px;"></button></a>
             <button class="btn"><i class="fa-solid fa-globe ioo"></i> English</button>
             <button class="btn">$ USD - U.S. Dollar</button>
             <button class="btn"> United States </button>
@@ -517,16 +522,17 @@ in Every Room</div></pre><br><br>
         </div>
     </footer>
 
-    <footer class="footer5">
+    <footer class="footer5" style="margin-top:-100px ;">
         <b>Conditions of Use Privacy Notice Your Ads Privacy Choices</b><br>
         <b>© 1996-2023, Amazon.com, Inc. or its affiliates</b>
     </footer>
     <!-- footers -->
 
-    <script src="./js/cart.js"></script>
     <script src="./js/Data.js"></script>
     <script src="./js/product_home.js"></script>
     <script src="./js/home.js"></script>
+    <script src="./js/Detalis.js"></script>
+
 </body>
 
 </html>

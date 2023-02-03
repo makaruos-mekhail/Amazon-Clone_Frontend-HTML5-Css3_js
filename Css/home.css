@@ -494,51 +494,9 @@ a {
 }
 
 .img-Margin2 {
-    margin-left: 8px;
-    width: 270px;
+    margin-left: 10px;
+    width: 275px;
     height: 260px;
-}
-
-.pree {
-    position: relative;
-    position: absolute;
-    top: 5015px;
-    left: 80px;
-}
-
-.pree1 {
-    position: relative;
-    position: absolute;
-    top: 5015px;
-    left: 270px;
-}
-
-.pree2 {
-    position: relative;
-    position: absolute;
-    top: 5015px;
-    left: 570px;
-}
-
-.pree3 {
-    position: relative;
-    position: absolute;
-    top: 5015px;
-    left: 860px;
-}
-
-.pree4 {
-    position: relative;
-    position: absolute;
-    top: 5015px;
-    left: 1130px;
-}
-
-.pree5 {
-    position: relative;
-    position: absolute;
-    top: 5015px;
-    left: 1430px;
 }
 
 .io {
@@ -546,7 +504,6 @@ a {
     font-size: 23px;
 
 }
-
 
 /* ////////////////////// product */
 

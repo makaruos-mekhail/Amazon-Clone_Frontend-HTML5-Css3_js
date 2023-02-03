@@ -40,6 +40,7 @@ i {
     grid-template-columns: repeat(4, 430px);
     gap: 30px;
     justify-content: center;
+    margin-top: -300px;
 }
 
 @media(max-width:1000px) {
@@ -191,3 +192,14 @@ border-radius: 9px;
 /* .checkout{
 
 } */
+#bottdesign{
+    display: inline-block;
+    background-color: #c8803c;
+    padding: 5px;
+    width: 150px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 1em;
+    font-size: large;
+
+}

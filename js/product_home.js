@@ -11,11 +11,13 @@ let generateshop = function () {
         return `<div id=product-id-${id} class="item" >
                 <h2 style="padding: 15px;">${name}</h2>
                 <br>
-                <a href="detalis.html"><img src=${img} class="img-width"></a>
+                <img src=${img} class="img-width" onclick="Productdetails(this)">
                 <div class="details">
                 <p>${desc}</p>
                 <div class="priceQuantity">
                 <h2>$ ${price}</h2>
+                <button id="bottdesign" onclick="sendproduct(${id}),Detailspage()" >ShowProduct</button>
+
                 <div class="bottons">
                 <i onclick="decrement(${id})" class="fa-solid fa-minus"></i>
                 <div id=${id} class="quantity">
