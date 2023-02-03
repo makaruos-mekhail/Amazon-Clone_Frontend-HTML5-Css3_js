@@ -136,11 +136,7 @@ let GeneratProduct = () => {
                               <a href = "#">
                                 <i class = "fab fa-pinterest"></i>
                               </a>
-                              <div class = "purchase-info">
-                              <button type = "button" class = "btn" onclick="increment2(id)" id="addcard">
-                              Add to Cart <i class = "fas fa-shopping-cart"></i>
-                              </button>
-                              </div>
+
                             </div>
                           </div>
                         </div>
